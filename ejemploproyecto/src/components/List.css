@@ -1,0 +1,18 @@
+.list-group {
+    list-style: none;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.list-group-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-div {
+    display: flex;
+    align-items: flex-end;
+}

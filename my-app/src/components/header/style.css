@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+}
+header{
+    background-color: rgb(0, 0, 255);
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav{
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+}
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none !important;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+    background-image: url("https://s.yimg.com/ny/api/res/1.2/8yVjxu2.FoosYnjsoQrniA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTMyMA--/https://s.yimg.com/uu/api/res/1.2/_YWvA7AxHbft8jVX4L3rOQ--~B/aD0zMDA7dz02MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/es/levelup_525/64eb560ae31125d06379255c3b3e8a39");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+}
+.nav-menu-link:hover{
+    background-color:rgb(6, 83, 26);
+    transition: 0.5s;
+}
+
+
+

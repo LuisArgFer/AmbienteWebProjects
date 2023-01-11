@@ -1,0 +1,92 @@
+
+/* Login Buttons style */
+.btn-log {
+    margin: 15px 8%;
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+.btn-log:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.btn-log:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+/* Login inputs text styles */
+
+.controls-container {
+    float: left;
+    margin: 15px 8%;
+    position: relative;
+}
+
+.controls {
+    width: 100%; 
+    box-sizing: border-box;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    letter-spacing: 1px;
+    border: 0;
+    padding: 7px 0;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.controls:focus {
+    outline: none;
+}
+
+.controls~.focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #EF4765;
+    transition: 0.4s;
+}
+
+.controls:focus~.focus-border {
+    width: 100%;
+    transition: 0.4s;
+}
+
+/* Login grid */
+
+.Login-container{
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+    height: 350px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #6b6b6b;
+    border-top: 3px solid #EF4765;
+    box-shadow: 7px 13px 37px #000;
+}
+.Login-container h1 {
+    color: #FFFFFF;
+}
+.Login-container a {
+    color: #FF9A5A;
+}

@@ -1,0 +1,13 @@
+footer {
+    font-family: inherit;
+    background-color: #363636;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 42%;
+  }
+  footer a {
+    color: #e58112;
+  }
+

@@ -1,0 +1,62 @@
+.app {
+  background-image: url(https://images2.alphacoders.com/927/thumb-1920-927337.png);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.cards-container {
+  width: 1000px;
+  height: 610px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  display: inline-block;
+  margin: 5px;
+  height: calc(200px -10px);
+  width: calc(250px - 10px);
+  cursor: pointer;
+  
+}
+
+.card:hover {
+  transform: scale(0.98);
+  
+}
+
+.card-image{
+  height: calc(200px - 10px);
+  width: calc(250px - 10px);
+  
+}
+
+button {
+  background: white;
+  border: 2px solid #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.turnos{
+  background: white;
+  border: 2px solid #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+
+}
